@@ -1,0 +1,35 @@
+body{margin: 0;padding: 0;background: url(images/site/bg.jpg);font: helvetica;}
+img{border:none}
+a{color: inherit;text-decoration: inherit}
+body > header{display: block;width: 100%;background: url(images/site/barre.png) repeat-x;height: 40px;}
+#site{text-align: center;width:840px;position:absolute;left:50%;margin-left:-420px;background: rgba(255, 255, 255, 0.4);top:40px;min-height: 94.96%}
+#site > h1{border-bottom: 2px solid grey;width: 70%;margin-left: 15%;padding-bottom: 10px;}
+#form > form label{float:left;width:200px;padding-top: 7px;}
+#form > form input{width:200px;padding: 7px;}
+#form > form input[type="button"]{margin-left:200px;}
+#form{width: 600px;height: 300px;margin-left: 120px;border:1px solid black;}
+#form > h2{text-align: left; margin-left: 30px}
+#nav_barre{width: 840px;text-align: left;margin-top:-30px;position: absolute;}
+.nav_button{display: inline;padding:10px 25px 10px 25px;color: rgb(150, 150, 150)}
+.active{display: inline;background: rgb(21, 11, 12); color: rgb(255, 255, 255)}
+.nav_button:hover{color: rgb(255, 255, 255)}
+#contenu{border-radius: 10px;float: left;background: rgba(255, 255, 255, 0.7);width: 600px;min-height: 100px;margin-left: 10px;padding: 5px 0 5px 0;}
+#nav{border-radius: 10px;float:left;background: rgba(255, 255, 255, 0.7); width: 208px;min-height: 100px;margin-left: 10px;padding-bottom: 5px;}
+.box_side{width: 100%;}
+.uploadifyQueueItem{margin-left:245px;}
+#deco{position: absolute;margin: -28px 0 0 808px;opacity: 0.5;}
+#deco:hover{opacity: 1;}
+#param{position: absolute;margin: -28px 0 0 768px;opacity: 0.5;}
+#param:hover{opacity: 1;}
+#friend{width: 800px;padding: 10px 0 10px 0; margin-left: 20px;border-radius: 10px;background: rgba(255, 255, 255, 0.7); }
+#friend1{width: 800px;padding: 10px 0 10px 0; margin-left: 20px;border-radius: 10px;background: rgba(255, 255, 255, 0.7); }
+#friend2{width: 800px;padding: 10px 0 10px 0; margin-left: 20px;border-radius: 10px;background: rgba(255, 255, 255, 0.7); }
+.friend{padding-left: 50px;}
+.timi{float: left;width:500px;min-height: 20px;border-bottom: 1px solid black;border-top: 1px solid black;}
+.timi2{float: left;width:200px;min-height: 20px;}
+input[id="search"]{background: #DDD;font-size: 1em;position: absolute;width: 200px;height: 16px;margin:-5px 0 0 100px;border-radius: 10px;padding: 5px;color: black}
+input[id="search"]{-webkit-transition: background .4s linear;-moz-transition: all .4s linear;-o-transition: background .4s linear;-ms-transition: background .4s linear;transition: background .4s linear;}
+input[id="search"]:focus{background: white;}
+#notif{position: absolute;font-size: 0.7em;font-weight: bold;color:white;background: red;border-radius: 2px;padding: 1px;margin: -25px 0 0 379px;}
+#notif_timeline{position: absolute;font-size: 0.7em;font-weight: bold;color:white;background: red;border-radius: 2px;padding: 1px;margin: -25px 0 0 168px;}
+#lg_titre{position: absolute;margin-left: 360px;}
